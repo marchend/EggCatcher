@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28119CCC1B03001D0097E605 /* MCHGamePlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 28119CCB1B03001D0097E605 /* MCHGamePlayScene.sks */; };
 		2819D5AA1B02E7D8007BD5CA /* MCHMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2819D5A91B02E7D8007BD5CA /* MCHMenuScene.sks */; };
+		2819D5AD1B02FE9E007BD5CA /* MCHGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819D5AC1B02FE9E007BD5CA /* MCHGamePlayScene.m */; };
 		28D1D8381B02A73500F9BFFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1D8371B02A73500F9BFFD /* main.m */; };
 		28D1D83B1B02A73500F9BFFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1D83A1B02A73500F9BFFD /* AppDelegate.m */; };
 		28D1D8401B02A73500F9BFFD /* MCHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1D83F1B02A73500F9BFFD /* MCHRootViewController.m */; };
@@ -29,7 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28119CCB1B03001D0097E605 /* MCHGamePlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MCHGamePlayScene.sks; sourceTree = "<group>"; };
 		2819D5A91B02E7D8007BD5CA /* MCHMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MCHMenuScene.sks; sourceTree = "<group>"; };
+		2819D5AB1B02FE9E007BD5CA /* MCHGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCHGamePlayScene.h; sourceTree = "<group>"; };
+		2819D5AC1B02FE9E007BD5CA /* MCHGamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCHGamePlayScene.m; sourceTree = "<group>"; };
 		28D1D8321B02A73500F9BFFD /* EggCatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggCatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D1D8361B02A73500F9BFFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28D1D8371B02A73500F9BFFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +98,9 @@
 				28D1D85D1B02DFD400F9BFFD /* MCHMenuScene.h */,
 				28D1D85E1B02DFD400F9BFFD /* MCHMenuScene.m */,
 				2819D5A91B02E7D8007BD5CA /* MCHMenuScene.sks */,
+				2819D5AB1B02FE9E007BD5CA /* MCHGamePlayScene.h */,
+				2819D5AC1B02FE9E007BD5CA /* MCHGamePlayScene.m */,
+				28119CCB1B03001D0097E605 /* MCHGamePlayScene.sks */,
 				28D1D8411B02A73500F9BFFD /* Main.storyboard */,
 				28D1D8441B02A73500F9BFFD /* Images.xcassets */,
 				28D1D8461B02A73500F9BFFD /* LaunchScreen.xib */,
@@ -209,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2819D5AA1B02E7D8007BD5CA /* MCHMenuScene.sks in Resources */,
+				28119CCC1B03001D0097E605 /* MCHGamePlayScene.sks in Resources */,
 				28D1D8481B02A73500F9BFFD /* LaunchScreen.xib in Resources */,
 				28D1D8451B02A73500F9BFFD /* Images.xcassets in Resources */,
 				28D1D8431B02A73500F9BFFD /* Main.storyboard in Resources */,
@@ -231,6 +240,7 @@
 			files = (
 				28D1D85F1B02DFD400F9BFFD /* MCHMenuScene.m in Sources */,
 				28D1D83B1B02A73500F9BFFD /* AppDelegate.m in Sources */,
+				2819D5AD1B02FE9E007BD5CA /* MCHGamePlayScene.m in Sources */,
 				28D1D8401B02A73500F9BFFD /* MCHRootViewController.m in Sources */,
 				28D1D8381B02A73500F9BFFD /* main.m in Sources */,
 			);

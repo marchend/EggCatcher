@@ -7,13 +7,15 @@
 //
 
 #import "MCHMenuScene.h"
+#import "MCHGamePlayScene.h"
+#import "MCHRootViewController.h"
 
 @implementation MCHMenuScene
 
 -(id)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder:aDecoder]) {
         self.playGameLabel = (SKLabelNode *)[self childNodeWithName:@"newGame"];
-        self.playGameButton = [SKSpriteNode spriteNodeWithColor:[UIColor redColor] size:CGSizeMake(self.playGameLabel.frame.size.width,self.playGameLabel.frame.size.height)];
+        self.playGameButton = [SKSpriteNode spriteNodeWithColor:[UIColor clearColor] size:CGSizeMake(self.playGameLabel.frame.size.width,self.playGameLabel.frame.size.height)];
         self.playGameButton.position = CGPointMake(self.playGameLabel.position.x,self.playGameLabel.position.y);
         [self addChild:self.playGameButton];
     }
@@ -36,11 +38,9 @@
     SKNode *node = [self nodeAtPoint:location];
     if([node isEqual:self.playGameButton]){
         NSLog(@"play hit.");
-        /*
-        SKScene *gameScene = [[MCHGameplayScene alloc] initWithSize:self.size];
+        MCHGamePlayScene *gameScene = [MCHGamePlayScene unarchiveFromFile:@"MCHGamePlayScene"];
         SKTransition *doors = [SKTransition doorsOpenHorizontalWithDuration:0.5];
         [self.view presentScene:gameScene transition:doors];
-         */
     }
 }
 
