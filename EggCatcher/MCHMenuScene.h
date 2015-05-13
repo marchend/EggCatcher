@@ -10,4 +10,7 @@
 
 @interface MCHMenuScene : SKScene
 
+@property (strong,atomic)SKLabelNode *playGameLabel;
+@property (strong,atomic)SKSpriteNode *playGameButton;
+
 @end
