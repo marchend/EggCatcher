@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EAD5B996-1179-494F-9C5B-848425B756B8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EggCatcher</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0AC84ED316F898339A975C39E6088F661C287BB5</key>
+		<string>https://github.com/marchend/EggCatcher.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EggCatcher.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0AC84ED316F898339A975C39E6088F661C287BB5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marchend/EggCatcher.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0AC84ED316F898339A975C39E6088F661C287BB5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0AC84ED316F898339A975C39E6088F661C287BB5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EggCatcher</string>
+		</dict>
+	</array>
+</dict>
+</plist>
